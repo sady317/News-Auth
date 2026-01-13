@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Gravitas+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@theme {
+  --font-pacifico: "Pacifico", "cursive";
+}
+@theme {
+  --font-nunito: "Nunito", "sans-serif";
+}
+@theme {
+  --font-gravitas-one-regular: "Gravitas One", "serif";
+  
+}
+@theme {
+  --font-playfair-display: "Playfair Display", "serif";
+  
+}
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+  
+}
+@import "tailwindcss";
+@plugin "daisyui";
+
