@@ -6,7 +6,7 @@ import Card from '../../LeftSide/Card'
 function LeftSide() {
   return (
     <>
-    <div className='h-screen overflow-x-scroll '>
+    <div className='h-screen md:text-start  overflow-x-scroll '>
       <Category/>
       <Card/>
     </div>

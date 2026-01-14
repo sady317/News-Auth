@@ -73,7 +73,7 @@ function Login() {
           </form>
 
        <div className='text-lg text-center my-4'>
-        Are you new here? <Link to={"/register"} className='text-blue-800 underline'>Register</Link>
+     Dont’t Have An Account ?<Link to={"/register"} className='text-blue-800 underline'>Register</Link>
        </div>
         
         </div>

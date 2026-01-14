@@ -2,7 +2,9 @@ import React from 'react'
 
 function About() {
   return (
-    <div>About</div>
+       <div className="flex justify-center items-center h-[50vh]">
+            No Data Found
+        </div>
   )
 }
 

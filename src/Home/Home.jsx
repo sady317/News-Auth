@@ -6,7 +6,7 @@ import RightSide from "../Components/Content/RightSide/RightSide";
 function Home() {
   return (
     <>
-      <div className="grid grid-cols-12 mt-10 ">
+      <div className="grid md:grid-cols-12   mt-10 ">
         <div className=" col-span-3">  <LeftSide />     </div>
        <div className=" col-span-6">      <MidSide />    </div>
         <div className=" col-span-3">       <RightSide />     </div>

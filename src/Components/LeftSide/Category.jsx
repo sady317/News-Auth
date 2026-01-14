@@ -3,7 +3,7 @@ import React from "react";
 function Category() {
   return (
     <>
-      <h1 className="text-2xl font-bold">All Category</h1>
+      <h1 className="text-2xl  font-bold">All Category</h1>
       <div className="my-2  space-y-1">
         <p className="pl-3 text-lg cursor-pointer   hover:bg-gray-300 p-2 hover:font-bold rounded-md">
           All News

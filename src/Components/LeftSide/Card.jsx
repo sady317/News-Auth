@@ -33,8 +33,8 @@ function Card() {
         </span>
     </div>
 
-    <div className="px-1 space-y-3">
-        <img src={water} className="rounded-sm" alt="" />
+    <div className="px-1  space-y-3">
+        <img src={water} className="rounded-sm w-full" alt="" />
         <p className="font-bold">Bayern Slams Authorities Over Flight Delay to Club World Cup</p>
         <span className="flex items-center justify-between">
           <span className="flex items-center gap-1">

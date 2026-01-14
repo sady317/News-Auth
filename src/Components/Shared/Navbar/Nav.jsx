@@ -8,7 +8,7 @@ function Nav() {
 
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm flex  justify-between">
+      <div className="navbar bg-base-100 shadow-sm flex  sm:justify-between flex-col md:flex-row my-2 space-y-4">
         <div className="">
           <a className="btn btn-ghost lg:text-xl md:text-xl text-lg">
             News Auth
