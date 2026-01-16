@@ -16,7 +16,7 @@ function RightSide() {
  
   return (
     <>
-      <div className="space-y-6 h-screen overflow-auto">
+      <div className="space-y-6 md:h-screen md:overflow-auto">
         {/* CONTENT 1 */}
         <div className="space-y-2">
           <h1 className="flex text-2xl font-bold ">Login with</h1>

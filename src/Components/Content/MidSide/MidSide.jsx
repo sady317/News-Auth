@@ -15,7 +15,7 @@ function MidSide() {
   }, []);
   return (
     <>
-      <div className="space-y-4 h-screen overflow-x-scroll">
+      <div className="space-y-4 md:h-screen md:overflow-scroll">
         {news.map((n) => (
           <>
           <div className="main border border-gray-300 rounded-md p-3 space-y-6">

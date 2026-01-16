@@ -15,7 +15,7 @@ function Nav() {
           </a>
         </div>
 
-        <div className="lg:gap-6 gap-2 md:gap-4 flex items-center">
+        <div className="lg:gap-6 gap-4 md:gap-4 flex items-center">
           <NavLink
             to="/"
             className={({ isActive, isPending }) =>
@@ -23,7 +23,7 @@ function Nav() {
                 ? "pending"
                 : isActive
                 ? "active bg-gray-600 text-white text-center px-4 py-2 rounded-sm"
-                : ""
+                : "btn btn-outline"
             }
           >
             Home
@@ -35,7 +35,7 @@ function Nav() {
                 ? "pending"
                 : isActive
                 ? "active bg-gray-600 text-white text-center px-4 py-2 rounded-sm"
-                : ""
+                : "btn btn-outline"
             }
           >
             About
@@ -47,7 +47,7 @@ function Nav() {
                 ? "pending"
                 : isActive
                 ? "active bg-gray-600 text-white text-center px-4 py-2 rounded-sm"
-                : ""
+                : "btn btn-outline"
             }
           >
             Career
